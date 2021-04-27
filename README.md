@@ -1,7 +1,11 @@
 # CellularDodger
 
-This project is an embedded system game that plays on an LCD screen. It was developed for my CS122A class at UC Riverside. The goal of the game is to control a player with a joystick and avoid obstacles. The longer that you last against the obstacles the faster the character moves. The project connects via bluetooth to a server (my computer in the video) that stores a list of phone numbers and the highest all time score. When the highest all time score is beat, the embedded system sends a message to the server to update the highest score. The server updates the score and sends a text message to the list of phone numbers with the new all time high. 
+* This project is an embedded system game that plays on an LCD screen. It was developed for my CS122A class at UC Riverside. 
+* The goal of the game is to control a player with a joystick and avoid obstacles. The longer that you last against the obstacles the faster the character moves. 
+* The project connects via bluetooth to a server (my computer in the video) that stores a list of phone numbers and the highest all time score. 
+* When the highest all time score is beat, the embedded system sends a message to the server to update the highest score. The server then updates the score and sends a text message to the list of phone numbers with the new all time high. 
 
+Technologies
 1. Atmega 1284
 2. Bluetooth
 3. Twilio
